@@ -1,6 +1,7 @@
 # guardarr
 
-## example compose ##
+### example compose
+```
 guardarr:
   image: ${REPOSITORY}/guardarr:latest
   container_name: guardarr
@@ -18,3 +19,4 @@ guardarr:
     - TRANSMISSION_USER=${TRANSMISSION_USER}
     - TRANSMISSION_PASS=${TRANSMISSION_PASSWORD}
     - WEBHOOK_PORT=8978
+```
