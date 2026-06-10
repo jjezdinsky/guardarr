@@ -2,6 +2,15 @@
 
 simple app for blocking unwanted/malicious files in servarr stack (with transmission client)
 
+- pull repo
+- edit app.py allowed files
+- build
+- push to your repo
+- integrate with servarr stack
+- setup sonarr/radarr webhook
+![alt text](image.png)
+- enjoy
+
 ### example compose
 ```
 guardarr:
