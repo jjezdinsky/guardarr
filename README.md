@@ -1,5 +1,7 @@
 # guardarr
 
+simple app for blocking unwanted/malicious files in servarr stack (with transmission client)
+
 ### example compose
 ```
 guardarr:
